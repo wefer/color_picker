@@ -20,7 +20,7 @@ def distinguishable_colors(n_colors):
 	rgb = np.array([R,G,B]).T			#27000 by 3 matrix 
 
 	if n_colors > len(rgb)/3:	#>27000
-		print "You can't distinguish that many colos, dingus"
+		print "You can't distinguish that many colors, dingus"
 		return None
 
 	#Convert to Lab colorspace
